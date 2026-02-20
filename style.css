@@ -23,8 +23,8 @@
 }
 
 .main {
-  width: 1000px;
-  height: 1000px;
+  width: 1200px;
+  height: 1200px;
   background-color: pink;
   font-size: 12px;
   display: grid;
@@ -62,11 +62,13 @@
 .e {
   grid-area: e;
   background-color: purple;
+  color: whitesmoke;
 }
 
 .f {
   grid-area: f;
   background-color: blueviolet;
+  color: whitesmoke;
 }
 
 @media (max-width: 1000px) {
@@ -76,6 +78,7 @@
       "b"
       "c"
       "d"
-      "e";
+      "e"
+      "f";
   } 
 }
