@@ -20,7 +20,7 @@
   width: 1000px;
   height: 1000px;
   background-color: pink;
-  font-size: 15px;
+  font-size: 12px;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -56,6 +56,11 @@
 .e {
   grid-area: e;
   background-color: purple;
+}
+
+.f {
+  grid-area: f;
+  background-color: blueviolet;
 }
 
 @media (max-width: 1000px) {
